@@ -48,6 +48,7 @@ const Dealers = () => {
 
 
 let isLoggedIn = sessionStorage.getItem("username") != null ? true : false;
+console.log(isLoggedIn)
 return(
   <div>
       <Header/>
